@@ -13,3 +13,4 @@ D:\.net\NewAPI\api\Application\bin\Debug\net8.0\Domain.dll
 D:\.net\NewAPI\api\Application\bin\Debug\net8.0\Domain.pdb
 D:\.net\NewAPI\api\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
 D:\.net\NewAPI\api\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+D:\.net\NewAPI\api\Application\obj\Debug\net8.0\Application.sourcelink.json

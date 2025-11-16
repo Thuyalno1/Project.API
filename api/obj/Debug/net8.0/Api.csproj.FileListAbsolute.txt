@@ -167,3 +167,4 @@ D:\.net\NewAPI\api\API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspace
 D:\.net\NewAPI\api\API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\.net\NewAPI\api\api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 D:\.net\NewAPI\api\api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\.net\NewAPI\api\api\obj\Debug\net8.0\Api.sourcelink.json

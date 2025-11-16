@@ -32,5 +32,31 @@ namespace Api.Controllers
         }
 
 
+        [HttpGet]
+        public async Task<BaseResponseDTO<List<NhanVienDTO>>> GetAll([FromQuery] BaseQueryDTO request)
+        {
+            var model = new QueryDTO()
+            {
+                ActionBy = UserId,
+                LanguageKey = LanguageKey,
+                IsAdmin = IsAdmin,
+                Page = request.Page,
+                PageSize = request.PageSize,
+                Keyword = request.Keyword,
+            };
+            // Gọi service + bắt lỗi bằng HandleException
+            var result = await HandleException(_service.GetAllAsync(model));
+
+            // Nếu có metadata thì gán thêm
+            result.MetaData = new MetaDataDTO()
+            {
+                Page = model.Page,
+                PageSize = model.PageSize,
+                Total = model.Total,
+            };
+
+            return result;
+        }
+
     }
 }

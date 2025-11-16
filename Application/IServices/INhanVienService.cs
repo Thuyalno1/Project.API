@@ -12,6 +12,6 @@ namespace Application.IServices
     {
         Task<bool> CreateAsync(BaseRequestDTO<CreateNhanVienDTO> model);
 
-
+        Task<List<NhanVienDTO>> GetAllAsync(QueryDTO model);
     }
 }

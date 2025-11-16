@@ -17,3 +17,4 @@ D:\.net\NewAPI\api\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconf
 D:\.net\NewAPI\api\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
 D:\.net\NewAPI\api\Infrastructure\bin\Debug\net8.0\Application.dll
 D:\.net\NewAPI\api\Infrastructure\bin\Debug\net8.0\Application.pdb
+D:\.net\NewAPI\api\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

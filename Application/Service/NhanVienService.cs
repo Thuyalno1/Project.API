@@ -43,5 +43,13 @@ namespace Application.Service
             await  _repository.AddAsync(dto);
             return true;    
         }
+
+
+        public async Task<List<NhanVienDTO>> GetAllAsync(QueryDTO model)
+        {
+           if(model.Page <= 0) model.Page = 1;
+           if(model.PageSize <= 0) model.PageSize = 10;
+           return await _repository.GetAllAsync(model);
+        }
     }
 }

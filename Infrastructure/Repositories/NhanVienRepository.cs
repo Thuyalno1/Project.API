@@ -1,7 +1,9 @@
 ﻿using Application.DTO.NhanVien;
+using Application.DTOs.Common;
 using Application.IRepositories;
 using Domain.Entities;
 using Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,7 +40,7 @@ namespace Infrastructure.Repositories
                 };
 
                 await _context.nhanViens.AddAsync(entity);
-                await _context.SaveChangesAsync();   
+                await _context.SaveChangesAsync();
             }
             catch (System.Exception)
             {
@@ -46,5 +48,32 @@ namespace Infrastructure.Repositories
             }
 
         }
+
+        public async Task<List<NhanVienDTO>> GetAllAsync(QueryDTO model)
+        {
+            String keyword = model.Keyword?.Trim().ToLower() ?? string.Empty;
+            var query = _context.nhanViens
+                .Where(x => x.HoatDong && (string.IsNullOrEmpty(keyword) || x.Ma.ToLower().Contains(keyword) || x.Ten.ToLower().Contains(keyword)));
+
+            model.Total = await query.CountAsync();
+
+            return await query
+                .Select(x => new NhanVienDTO
+                {
+                    Id = x.Id,
+                    Ma = x.Ma,
+                    Ten = x.Ten,
+                    ChucVu = x.ChucVu,
+                    Address = x.Address,
+                    Email = x.Email
+                })
+                .OrderByDescending(x => x.Id)
+                .OrderByDescending(x => x.Ma)
+                .Skip((model.Page - 1) * model.PageSize)
+                .Take(model.PageSize)
+                .ToListAsync();
+
+        } 
     }
 }
+

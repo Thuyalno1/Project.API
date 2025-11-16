@@ -51,6 +51,58 @@
             }
           }
         }
+      },
+      "get": {
+        "tags": [
+          "NhanVien"
+        ],
+        "parameters": [
+          {
+            "name": "Keyword",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/NhanVienDTOListBaseResponseDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NhanVienDTOListBaseResponseDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NhanVienDTOListBaseResponseDTO"
+                }
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -168,6 +220,66 @@
           },
           "phongBan": {
             "$ref": "#/components/schemas/PhongBan"
+          }
+        },
+        "additionalProperties": false
+      },
+      "NhanVienDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ma": {
+            "type": "string",
+            "nullable": true
+          },
+          "ten": {
+            "type": "string",
+            "nullable": true
+          },
+          "hoatDong": {
+            "type": "boolean"
+          },
+          "chucVu": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NhanVienDTOListBaseResponseDTO": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NhanVienDTO"
+            },
+            "nullable": true
+          },
+          "metaData": {
+            "$ref": "#/components/schemas/MetaDataDTO"
           }
         },
         "additionalProperties": false
