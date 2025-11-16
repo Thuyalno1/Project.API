@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net\\NewAPI\\api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8802173D-DA58-47E5-8FD7-30B49DA4CE60}|api\\Api.csproj|d:\\.net\\newapi\\api\\api\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8802173D-DA58-47E5-8FD7-30B49DA4CE60}|api\\Api.csproj|solutionrelative:api\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|d:\\.net\\newapi\\api\\application\\dto\\nhanvien\\createnhanviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|solutionrelative:application\\dto\\nhanvien\\createnhanviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56707330-6363-499F-9035-911DD70D5C1F}|Infrastructure\\Infrastructure.csproj|d:\\.net\\newapi\\api\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56707330-6363-499F-9035-911DD70D5C1F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|d:\\.net\\newapi\\api\\application\\service\\nhanvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|solutionrelative:application\\service\\nhanvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0370B3-2DA7-4553-B3C3-80DA1E2F42EF}|Domain\\Domain.csproj|d:\\.net\\newapi\\api\\domain\\constants\\messageconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0370B3-2DA7-4553-B3C3-80DA1E2F42EF}|Domain\\Domain.csproj|solutionrelative:domain\\constants\\messageconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|d:\\.net\\newapi\\api\\application\\irepositories\\iphongbanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|solutionrelative:application\\irepositories\\iphongbanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56707330-6363-499F-9035-911DD70D5C1F}|Infrastructure\\Infrastructure.csproj|d:\\.net\\newapi\\api\\infrastructure\\repositories\\phongbanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56707330-6363-499F-9035-911DD70D5C1F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\phongbanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|d:\\.net\\newapi\\api\\application\\irepositories\\inhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|solutionrelative:application\\irepositories\\inhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56707330-6363-499F-9035-911DD70D5C1F}|Infrastructure\\Infrastructure.csproj|d:\\.net\\newapi\\api\\infrastructure\\repositories\\nhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56707330-6363-499F-9035-911DD70D5C1F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\nhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0370B3-2DA7-4553-B3C3-80DA1E2F42EF}|Domain\\Domain.csproj|d:\\.net\\newapi\\api\\domain\\entities\\phongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0370B3-2DA7-4553-B3C3-80DA1E2F42EF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\phongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8802173D-DA58-47E5-8FD7-30B49DA4CE60}|api\\Api.csproj|d:\\.net\\newapi\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8802173D-DA58-47E5-8FD7-30B49DA4CE60}|api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|d:\\.net\\newapi\\api\\application\\dto\\common\\baserequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|solutionrelative:application\\dto\\common\\baserequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|d:\\.net\\newapi\\api\\application\\iservices\\inhanvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|solutionrelative:application\\iservices\\inhanvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8802173D-DA58-47E5-8FD7-30B49DA4CE60}|api\\Api.csproj|d:\\.net\\newapi\\api\\api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8802173D-DA58-47E5-8FD7-30B49DA4CE60}|api\\Api.csproj|solutionrelative:api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|d:\\.net\\newapi\\api\\application\\dto\\common\\baseresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|solutionrelative:application\\dto\\common\\baseresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|d:\\.net\\newapi\\api\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|d:\\.net\\newapi\\api\\application\\dto\\nhanvien\\nhanviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A473159C-8627-4DDE-ACE8-F647C372411D}|Application\\Application.csproj|solutionrelative:application\\dto\\nhanvien\\nhanviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56707330-6363-499F-9035-911DD70D5C1F}|Infrastructure\\Infrastructure.csproj|d:\\.net\\newapi\\api\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{56707330-6363-499F-9035-911DD70D5C1F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPhongBanRepository.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Application\\IRepositories\\IPhongBanRepository.cs",
+              "RelativeDocumentMoniker": "Application\\IRepositories\\IPhongBanRepository.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Application\\IRepositories\\IPhongBanRepository.cs",
+              "RelativeToolTip": "Application\\IRepositories\\IPhongBanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T08:07:02.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhongBanRepository.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Infrastructure\\Repositories\\PhongBanRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\PhongBanRepository.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Infrastructure\\Repositories\\PhongBanRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\PhongBanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T08:06:06.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PhongBan.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Domain\\Entities\\PhongBan.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\PhongBan.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Domain\\Entities\\PhongBan.cs",
+              "RelativeToolTip": "Domain\\Entities\\PhongBan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T07:42:29.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T07:48:07.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateNhanVienDTO.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Application\\DTO\\NhanVien\\CreateNhanVienDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\NhanVien\\CreateNhanVienDTO.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Application\\DTO\\NhanVien\\CreateNhanVienDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\NhanVien\\CreateNhanVienDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T07:43:32.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NhanVienService.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Application\\Service\\NhanVienService.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\NhanVienService.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Application\\Service\\NhanVienService.cs",
+              "RelativeToolTip": "Application\\Service\\NhanVienService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwB0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T07:38:14.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MessageConstant.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Domain\\Constants\\MessageConstant.cs",
+              "RelativeDocumentMoniker": "Domain\\Constants\\MessageConstant.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Domain\\Constants\\MessageConstant.cs",
+              "RelativeToolTip": "Domain\\Constants\\MessageConstant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T07:27:18.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Application",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-16T07:20:27.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NhanVienRepository.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Infrastructure\\Repositories\\NhanVienRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\NhanVienRepository.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Infrastructure\\Repositories\\NhanVienRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\NhanVienRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T04:43:13.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "INhanVienRepository.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Application\\IRepositories\\INhanVienRepository.cs",
+              "RelativeDocumentMoniker": "Application\\IRepositories\\INhanVienRepository.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Application\\IRepositories\\INhanVienRepository.cs",
+              "RelativeToolTip": "Application\\IRepositories\\INhanVienRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T04:39:31.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "INhanVienService.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Application\\IServices\\INhanVienService.cs",
+              "RelativeDocumentMoniker": "Application\\IServices\\INhanVienService.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Application\\IServices\\INhanVienService.cs",
+              "RelativeToolTip": "Application\\IServices\\INhanVienService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T04:35:22.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseResponseDTO.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Application\\DTO\\Common\\BaseResponseDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\Common\\BaseResponseDTO.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Application\\DTO\\Common\\BaseResponseDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\Common\\BaseResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T04:25:52.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseRequestDTO.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Application\\DTO\\Common\\BaseRequestDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\Common\\BaseRequestDTO.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Application\\DTO\\Common\\BaseRequestDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\Common\\BaseRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T04:25:51.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\api\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "api\\Controllers\\NhanVienController.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\api\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "api\\Controllers\\NhanVienController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T04:23:59.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NhanVienDTO.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Application\\DTO\\NhanVien\\NhanVienDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\NhanVien\\NhanVienDTO.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Application\\DTO\\NhanVien\\NhanVienDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\NhanVien\\NhanVienDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T04:18:23.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\api\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "api\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\api\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "api\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T04:17:50.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\api\\Program.cs",
+              "RelativeDocumentMoniker": "api\\Program.cs",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\api\\Program.cs",
+              "RelativeToolTip": "api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T03:58:36.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Infrastructure",
+              "DocumentMoniker": "D:\\.net\\NewAPI\\api\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "D:\\.net\\NewAPI\\api\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-16T03:52:07.531Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

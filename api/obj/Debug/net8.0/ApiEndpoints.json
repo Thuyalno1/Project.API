@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Api.Controllers.NhanVienController",
+    "Method": "Create",
+    "RelativePath": "api/NhanVien",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.DTO.NhanVien.CreateNhanVienDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Application.DTOs.Common.BaseResponseDTO\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
